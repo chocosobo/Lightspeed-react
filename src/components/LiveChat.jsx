@@ -1,27 +1,13 @@
-import React from "react";
-import {
-  ChatContainer,
-  ChatMain,
-  ChatHeading,
-  ChatBody,
-} from "../styles/liveChatStyles";
+import * as React from 'react'
+import WidgetBot from '@widgetbot/react-embed'
 
-const LiveChat = () => {
-  return (
-    <ChatContainer>
-      <ChatMain>
-        <ChatHeading>
-          <h6>Live Chat Room</h6>
-          <i className="fas fa-long-arrow-up arrow"></i>
-        </ChatHeading>
+const App = () => (
+  <WidgetBot
+    server="847601882851704862"
+    channel="847601882851704865"
+  />
+)
 
-        <ChatBody>
-          <i className="fas fa-construction fa-3x"></i>
-          <h4>Coming Soon!</h4>
-        </ChatBody>
-      </ChatMain>
-    </ChatContainer>
-  );
-};
+export default App
 
 export default LiveChat;

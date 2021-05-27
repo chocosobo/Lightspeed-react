@@ -7,7 +7,7 @@ const Header = () => {
     <MainHeader>
       <HeaderLogoContainer>
         <img src={LightspeedLogoURL} alt="Lightspeed logo"></img>
-        <h1>Project Lightspeed</h1>
+        <h1>라이브 서버 테스트</h1>
       </HeaderLogoContainer>
     </MainHeader>
   );
