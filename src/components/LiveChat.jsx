@@ -1,4 +1,10 @@
 import * as React from 'react'
+import {
+  ChatContainer,
+  ChatMain,
+  ChatHeading,
+  ChatBody,
+} from "../styles/liveChatStyles";
 import WidgetBot from '@widgetbot/react-embed'
 
 const Livechat = () => (
