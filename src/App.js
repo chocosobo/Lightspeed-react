@@ -112,7 +112,6 @@ const App = () => {
 
   return (
     <>
-      <Header></Header>
       <MainContainer>
         <VideoContainer>
           <VideoPlayer src={state.stream} />
