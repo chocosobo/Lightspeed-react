@@ -6,7 +6,6 @@ const Header = () => {
   return (
     <MainHeader>
       <HeaderLogoContainer>
-
       </HeaderLogoContainer>
     </MainHeader>
   );

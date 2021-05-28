@@ -24,6 +24,11 @@ const VideoDetails = ({ viewers }) => {
           <span>{viewers}</span>
         </ViewerTag>
       </DetailsTop>
+      <DetailHeadingBox>
+        <DetailsTitle>
+          <DetailsHeading></DetailsHeading>
+        </DetailsTitle>
+      </DetailHeadingBox>
     </VideoDetailsContainer>
   );
 };
