@@ -1,7 +1,6 @@
 import * as React from 'react';
 import {
   ChatContainer,
-  WidgetBot,
 } from "../styles/liveChatStyles";
 import WidgetBot from '@widgetbot/react-embed';
 
