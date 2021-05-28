@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Poppins', sans-serif;
         font-style: normal;
         text-align:center;
+        max-height:100%;
     }
 
     body{

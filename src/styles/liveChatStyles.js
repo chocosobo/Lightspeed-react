@@ -8,7 +8,7 @@ export const ChatContainer = styled.div`
   margin: 0 2.5em;
   min-width: 25em;
   width: 25%;
-  max-width: 600px;
+  max-width: 30empx;
   height: 100%;
   
 

@@ -20,6 +20,7 @@ export const VideoContainer = styled.div`
   flex-direction: column;
   color: #fff;
   margin: 0 2.5em;
+  max-width: 1920px;
 
   @media only screen and (max-width: 1024px) {
     margin: 0.3em;
