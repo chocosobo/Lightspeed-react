@@ -15,17 +15,6 @@ export const ChatContainer = styled.div`
   @media only screen and (max-width: 1024px) {
     margin: 1em 0.3em;
     min-width: unset;
-    width: 100%;
-  }
-`;
-
-export const WidgetBot = styled.div`
-  width:100%;
-  height:100%;
-
-  @media only screen and (max-width: 1024px) {
-    margin: 1em 0.3em;
-    min-width: unset;
     width: 91%;
   }
 `;
