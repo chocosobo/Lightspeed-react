@@ -6,6 +6,8 @@ const Header = () => {
   return (
     <MainHeader>
       <HeaderLogoContainer>
+        <img src={LightspeedLogoURL} alt="Lightspeed logo"></img>
+        <h1>Project Lightspeed</h1>
       </HeaderLogoContainer>
     </MainHeader>
   );
