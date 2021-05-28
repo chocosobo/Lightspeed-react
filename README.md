@@ -23,3 +23,4 @@ cat <<EOF > /var/www/html/config.json
   "wsUrl": "${WEBSOCKET_URL}"
 }
 EOF
+```

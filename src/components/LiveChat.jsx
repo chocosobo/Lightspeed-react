@@ -8,10 +8,12 @@ import {
 import WidgetBot from '@widgetbot/react-embed';
 
 const LiveChat = () => (
-  <WidgetBot
-    server="847601882851704862"
-    channel="847601882851704865"
-  />
+  <ChatContainer>
+    <WidgetBot
+      server="847601882851704862"
+      channel="847601882851704865"
+    />
+  </ChatContainer>
 );
 
 

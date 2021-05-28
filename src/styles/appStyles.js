@@ -5,6 +5,7 @@ export const MainContainer = styled.div`
   flex-direction: row;
   justify-content: space-evenly;
   margin: 2em;
+  max-height: 100%;
 
   @media only screen and (max-width: 1024px) {
     margin: 1.5em 0;
