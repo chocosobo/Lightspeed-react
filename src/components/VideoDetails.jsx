@@ -24,12 +24,6 @@ const VideoDetails = ({ viewers }) => {
           <span>{viewers}</span>
         </ViewerTag>
       </DetailsTop>
-      <DetailHeadingBox>
-        <DetailsTitle>
-          <DetailsHeading>Welcome to Project Lightspeed</DetailsHeading>
-        </DetailsTitle>
-        <img id="detail-img" src={LightspeedLogoURL}></img>
-      </DetailHeadingBox>
     </VideoDetailsContainer>
   );
 };
