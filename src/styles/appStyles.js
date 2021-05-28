@@ -5,6 +5,7 @@ export const MainContainer = styled.div`
   flex-direction: row;
   justify-content: space-evenly;
   margin: 2em;
+  max-height: 100%;
 
   @media only screen and (max-width: 1024px) {
     margin: 1.5em 0;
@@ -19,8 +20,10 @@ export const VideoContainer = styled.div`
   flex-direction: column;
   color: #fff;
   margin: 0 2.5em;
+  width: 70%;
 
   @media only screen and (max-width: 1024px) {
     margin: 0.3em;
+    width: 100%;
   }
 `;
