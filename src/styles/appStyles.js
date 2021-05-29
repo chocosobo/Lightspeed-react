@@ -4,7 +4,7 @@ export const MainContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  max-height: 100%;
+  height: 100%;
 
   @media only screen and (max-width: 1024px) {
     display: flex;
