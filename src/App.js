@@ -2,12 +2,11 @@ import "./App.css";
 import React, { useEffect, useReducer } from "react";
 import { useSocket } from "./context/SocketContext";
 import { useRTC } from "./context/RTCPeerContext";
-
+import VideoPlayer from "./components/VideoPlayer";
 import VideoDetails from "./components/VideoDetails";
 import LiveChat from "./components/LiveChat";
+import Header from "./components/Header";
 import { VideoContainer, MainContainer } from "./styles/appStyles";
-
-import {ReactPlayer as VideoPlayer} from 'react-player'
 
 const appReducer = (state, action) => {
   switch (action.type) {
