@@ -3,7 +3,9 @@ import PropTypes from "prop-types";
 import { VideoPosterURL } from "../assets/constants";
 import { Video } from "../styles/videoPlayerStyles";
 
-import ReactPlayer from 'react-player'
+import { VLCPlayer, VlCPlayerView } from 'react-native-vlc-media-player';
+import Orientation from 'react-native-orientation';
+
 
 const VideoPlayer = ({ src }) => {
   const videoRef = useRef(null);
@@ -20,7 +22,6 @@ const VideoPlayer = ({ src }) => {
       playsInline
       autoPlay
       controls
-      muted
       poster={VideoPosterURL}
     ></Video>
   );
