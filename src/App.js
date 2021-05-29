@@ -5,7 +5,6 @@ import { useRTC } from "./context/RTCPeerContext";
 import VideoPlayer from "./components/VideoPlayer";
 import VideoDetails from "./components/VideoDetails";
 import LiveChat from "./components/LiveChat";
-import Header from "./components/Header";
 import { VideoContainer, MainContainer } from "./styles/appStyles";
 
 const appReducer = (state, action) => {
