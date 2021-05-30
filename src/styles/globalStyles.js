@@ -22,6 +22,7 @@ const GlobalStyle = createGlobalStyle`
 
     .App{
         text-align:center;
+        height:100%
     }
 
     h4 {
