@@ -1,8 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import { VideoPosterURL } from "../assets/constants";
-
-import { WowzaWebRTCPlayer } from 'wowza-webrtc-player';
+import { Video } from "../styles/videoPlayerStyles";
 
 const VideoPlayer = ({ src }) => {
   const videoRef = useRef(null);
@@ -14,13 +13,13 @@ const VideoPlayer = ({ src }) => {
   }, [src]);
 
   return (
-    <WowzaWebRTCPlayer
+    <Video
       ref={videoRef}
       playsInline
       autoPlay
       controls
       poster={VideoPosterURL}
-    ></WowzaWebRTCPlayer>
+    ></Video>
   );
 };
 
