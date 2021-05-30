@@ -20,9 +20,11 @@ const GlobalStyle = createGlobalStyle`
         background-color: #1f2128;
     }
 
+    #root{
+      height:100%;
+    }
     .App{
         text-align:center;
-        height:100%
     }
 
     h4 {
