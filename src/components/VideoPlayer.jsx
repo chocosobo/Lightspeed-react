@@ -2,8 +2,7 @@ import React, { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import { VideoPosterURL } from "../assets/constants";
 
-import { VLCPlayer, VlCPlayerView } from 'react-native-vlc-media-player';
-import Orientation from 'react-native-orientation';
+import { WowzaWebRTCPlayer } from 'wowza-webrtc-player';
 
 const VideoPlayer = ({ src }) => {
   const videoRef = useRef(null);
@@ -15,14 +14,13 @@ const VideoPlayer = ({ src }) => {
   }, [src]);
 
   return (
-    <VlCPlayerView
+    <WowzaWebRTCPlayer
       ref={videoRef}
-      Orientation={Orientation}
       playsInline
       autoPlay
       controls
       poster={VideoPosterURL}
-    ></VlCPlayerView>
+    ></WowzaWebRTCPlayer>
   );
 };
 
