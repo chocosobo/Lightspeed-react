@@ -3,14 +3,15 @@ import {
   ChatContainer
 } from "../styles/liveChatStyles";
 
-import WidgetBothawawa from "./dico"
-
-
+import WidgetBot, { API } from '@widgetbot/react-embed'
 
 
 const LiveChat = () => (
   <ChatContainer>
-    <WidgetBothawawa
+    <WidgetBot
+      server="299881420891881473"
+      channel="355719584830980096"
+      onAPI={this.onAPI.bind(this)}
     />
   </ChatContainer>
 );
