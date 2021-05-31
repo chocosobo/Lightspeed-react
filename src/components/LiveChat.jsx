@@ -9,9 +9,11 @@ import WidgetBot, { API } from '@widgetbot/react-embed'
 const LiveChat = () => (
   <ChatContainer>
     <WidgetBot
-      server="299881420891881473"
-      channel="355719584830980096"
-      onAPI={this.onAPI.bind(this)}
+      style={{
+        height: "100%"
+      }}
+      server="847601882851704862"
+      channel="847601882851704865"
     />
   </ChatContainer>
 );
