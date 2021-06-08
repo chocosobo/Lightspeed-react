@@ -24,5 +24,4 @@ export const VideoContainer = styled.div`
   @media only screen and (max-width: 1024px) {
     algin-self: unset;
   }
-
 `;

@@ -8,9 +8,8 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Poppins', sans-serif;
         font-style: normal;
         text-align:center;
-        max-height:100%;
     }
-
+    
     html, body{
       width: 100%;
       height: 100%
@@ -20,9 +19,6 @@ const GlobalStyle = createGlobalStyle`
         background-color: #1f2128;
     }
 
-    #root{
-      height:100%;
-    }
     .App{
         text-align:center;
     }

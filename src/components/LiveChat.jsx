@@ -1,22 +1,22 @@
-import * as React from 'react';
+import React from "react";
 import {
-  ChatContainer
+  ChatContainer,
+  ChatMain,
+  ChatHeading,
+  ChatBody,
 } from "../styles/liveChatStyles";
 
-import WidgetBot, { API } from '@widgetbot/react-embed'
+const LiveChat = () => {
+  return (
+    <ChatContainer>
 
+      <WidgetBot
+        server="299881420891881473"
+        channel="355719584830980096"
+      />
 
-const LiveChat = () => (
-  <ChatContainer>
-    <WidgetBot
-      style={{
-        height: "100%"
-      }}
-      server="847601882851704862"
-      channel="847601882851704865"
-    />
-  </ChatContainer>
-);
-
+    </ChatContainer>
+  );
+};
 
 export default LiveChat;

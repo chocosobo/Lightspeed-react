@@ -18,6 +18,7 @@ const VideoPlayer = ({ src }) => {
       playsInline
       autoPlay
       controls
+      muted
       poster={VideoPosterURL}
     ></Video>
   );
